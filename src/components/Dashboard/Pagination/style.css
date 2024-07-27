@@ -1,0 +1,15 @@
+.pagination-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    /* background-color: red; */
+  }
+  @media only screen and (max-width:600px){
+    .pagination-div{
+      width: 93%;
+      /* background-color: red; */
+      margin-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  }
